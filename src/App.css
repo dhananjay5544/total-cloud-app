@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: url('./img/Rectangle\ 1.svg')  30% 90% no-repeat padding-box;
+    
+}
+
+.navBar{
+    padding: 50px !important;
+}
+.nav-list{
+    transform: translateX(700px);
+}
+
+.nav-link{
+    color: rgba(255, 255, 255, 0.918) !important;
+}
+.nav-link:hover{
+    color: rgba(63, 248, 217, 0.815) !important;
+}
+.nav-img{
+    position: absolute;
+    width: 25%;
+    transform: translate(1250px,-120px);
+}
+
+.title{
+    color: white;
+    font-weight: bold;
+}
+.main-content{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+}
+
+.main-container{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-height: 60vh;
+}
+
+.main-container1{
+    background-color: black;
+    color: white;
+}
+
+.cust1{
+    background-color: white;
+    color: black;
+}
+.seller-col{
+    border: 1.5px solid rgb(13, 110, 255);
+}
+
+.items{
+    list-style: none;
+    padding-left: 20px;
+}
+.selected{
+    background-color: rgb(70, 70, 255) !important;
+    color:white;
+}
+
+.items li{
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: azure;
+}
+
+.items li:hover{
+    background-color: rgb(36, 135, 248);
+    color: white;
+    cursor: pointer;
+}
+
+.main-content button{
+    margin-bottom: 10px;
+}
+
+@media(max-width:500px){
+    .navBar{
+        padding: 40px 20px 40px 30px !important;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .main-content{
+        flex-direction: row !important;
+    }
+    .main-content button:nth-child(1){
+        margin-right: 5px;
+    }
+}
+
+

@@ -97,6 +97,9 @@ body{
     .main-content button:nth-child(1){
         margin-right: 5px;
     }
+    .nav-list{
+        transform: translateX(0px) !important;
+    }
 }
 
 
